@@ -1,0 +1,363 @@
+/* ===== BODY / SCHOOL BACKGROUND ===== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-image:
+    linear-gradient(
+        rgba(255,255,255,0.15),
+        rgba(255,255,255,0.15)
+    ),
+    url("/static/school.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+}
+
+
+
+/* ===== MAIN CONTAINER ===== */
+
+
+.container {
+
+    width: 85%;
+
+    margin: 40px auto;
+
+    background: rgba(255,255,255,0.30);
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.20);
+
+    backdrop-filter: blur(3px);
+
+}
+
+
+
+
+
+/* ===== HEADER ===== */
+
+
+.header {
+
+    text-align: center;
+
+}
+
+
+.header h1 {
+
+    color: #8b0000;
+
+    font-size: 38px;
+
+    text-shadow: 1px 1px white;
+
+}
+
+
+.header p {
+
+    color: #5a3a00;
+
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+/* ===== DASHBOARD ===== */
+
+
+.dashboard {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 30px 0;
+
+}
+
+
+
+.stat-card {
+
+    width: 300px;
+
+    text-align: center;
+
+    background: rgba(255,215,0,0.35);
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    border: 2px solid rgba(255,215,0,0.55);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    backdrop-filter: blur(4px);
+
+}
+
+
+
+.stat-card h2 {
+
+    color: #8b0000;
+
+}
+
+
+
+.stat-card h1 {
+
+    color: #8b0000;
+
+    font-size: 50px;
+
+}
+
+
+
+
+
+
+/* ===== CONTENT CARDS ===== */
+
+
+.card {
+
+    background: rgba(255,255,255,0.40);
+
+    padding: 30px;
+
+    margin-top: 25px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+
+    backdrop-filter: blur(4px);
+
+}
+
+
+
+.card h2 {
+
+    text-align: center;
+
+    color: #8b0000;
+
+}
+
+
+
+
+
+
+
+/* ===== INPUT ===== */
+
+
+input {
+
+    display: block;
+
+    width: 80%;
+
+    margin: 15px auto;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    border: 2px solid rgba(139,0,0,0.25);
+
+    background: rgba(255,255,255,0.75);
+
+    font-size: 16px;
+
+}
+
+
+
+input:focus {
+
+    outline: none;
+
+    border-color: #8b0000;
+
+}
+
+
+
+
+
+
+
+/* ===== BUTTON ===== */
+
+
+button {
+
+    display: inline-block;
+
+    margin: 10px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
+
+
+
+button[type="submit"] {
+
+    background: rgba(139,0,0,0.85);
+
+    color: white;
+
+}
+
+
+
+button:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+
+
+
+
+
+/* ===== TABLE ===== */
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: separate;
+
+    border-spacing: 0;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+}
+
+
+
+th {
+
+    background: rgba(139,0,0,0.75);
+
+    color: white;
+
+    padding: 15px;
+
+}
+
+
+
+td {
+
+    background: rgba(255,255,255,0.45);
+
+    padding: 15px;
+
+    text-align: center;
+
+    color: #333;
+
+}
+
+
+
+tr:hover td {
+
+    background: rgba(255,215,0,0.30);
+
+}
+
+
+
+
+
+
+/* ===== EDIT BUTTON ===== */
+
+
+.edit-btn {
+
+    background: rgba(255,215,0,0.60);
+
+    color: #6b4b00;
+
+}
+
+
+
+.edit-btn:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+
+
+
+
+/* ===== DELETE BUTTON ===== */
+
+
+.delete-btn {
+
+    background: rgba(220,53,69,0.75);
+
+    color: white;
+
+}
+
+
+
+.delete-btn:hover {
+
+    transform: scale(1.05);
+
+}
